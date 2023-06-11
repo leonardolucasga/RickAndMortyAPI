@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+@font-face {
+    font-family: 'RickAndMorty' ;
+    src: url('get_schwifty.ttf') format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+.title{
+    font-family: 'RickAndMorty', Times, serif;
+    font-size: 3rem;
+    font-weight: normal;
+    text-align: center;
+    color: #17AEC8; 
+}
+h2{
+    font-family: 'RickAndMorty', Times, serif;
+    font-size: 2rem;
+    font-weight: normal;
+    text-align: center;
+    color: #17AEC8;
+}
+
+
+@media screen and (min-width: 380px) {
+    .card{
+    grid-template-columns: 1fr ;
+}    
+}
+@media screen and (min-width: 576px) {
+   .card{ grid-template-columns: 1fr 1fr 1fr; 
+}}
+
+@media screen and (min-width: 922px) {
+    .card{
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+}
+}
