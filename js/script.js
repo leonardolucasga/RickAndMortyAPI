@@ -14,8 +14,8 @@ fetch(`https://rickandmortyapi.com/api/character`,{
         <span>` + results.origin.name +`</span>
         <br>
         <hr>
-        
         </div>`
     })
 })
+ 
  
