@@ -18,3 +18,8 @@
     transform: scale(1.040) 
     
 }
+.container-indiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

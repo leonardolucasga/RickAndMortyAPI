@@ -29,6 +29,7 @@ h2{
 @media screen and (min-width: 320px) {
     .card{
     grid-template-columns: 1fr ;
+
 }    
 }
 @media screen and (min-width: 576px) {

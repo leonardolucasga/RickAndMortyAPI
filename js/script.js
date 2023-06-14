@@ -7,7 +7,7 @@ fetch(`https://rickandmortyapi.com/api/character`,{
     json.results.map(function(results){
         container.innerHTML +=`
         <div class="card">
-        <img src=` + results.image +`> 
+        <a target="_blank" href="pag02.html"><img src=` + results.image +`> </a>
         <br>
         <strong>` + results.name +`</strong>
         <br>
@@ -15,6 +15,7 @@ fetch(`https://rickandmortyapi.com/api/character`,{
         <br>
         <hr>
         </div>`
+        
     })
 })
  
